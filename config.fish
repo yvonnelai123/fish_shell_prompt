@@ -29,7 +29,7 @@ function fish_prompt
 	set_color white
 	echo -n '('(date +"%Y/%m/%d %I:%M %p")') '
 
-	set_color blue
+	set_color 1CA8FF
 
 	if [ $git_branch ]
 		echo -n '('$git_branch')'
@@ -37,7 +37,7 @@ function fish_prompt
 
 	echo -e
 
-	set_color blue
+	set_color 1CA8FF
 	echo -n '> '
 
 end
